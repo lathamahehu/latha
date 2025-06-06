@@ -1,7 +1,7 @@
 import streamlit as st
 import os
 from io import BytesIO
-from PyPDF2 import PdfReader
+from PypDF2 import pdfReader
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain_openai import OpenAIEmbeddings # For generating embeddings from OpenAI
 from langchain_community.vectorstores import FAISS # For efficient similarity search
