@@ -9,5 +9,5 @@ from langchain_community.vectorstores import FAISS # For efficient similarity se
 from langchain_openai import ChatOpenAI # For the OpenAI LLM (e.g., gpt-3.5-turbo)
 from langchain.chains.Youtubeing import load_qa_chain
 from langchain.prompts import PromptTemplate
-
+from langchain.chains.Youtubeing import load_qa_chain
 # ... (rest of the code for the app) ...
