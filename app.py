@@ -7,7 +7,7 @@ from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain_openai import OpenAIEmbeddings # For generating embeddings from OpenAI
 from langchain_community.vectorstores import FAISS # For efficient similarity search
 from langchain_openai import ChatOpenAI # For the OpenAI LLM (e.g., gpt-3.5-turbo)
-from langchain.chains.Youtubeing import load_qa_chain # CORRECTED LINE HERE
+from langchain.chains.Youtubeing import load_qa_chain# CORRECTED LINE HERE
 from langchain.prompts import PromptTemplate
 
 # --- Streamlit Page Configuration ---
